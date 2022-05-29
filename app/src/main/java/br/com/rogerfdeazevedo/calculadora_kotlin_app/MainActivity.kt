@@ -85,28 +85,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    /**
-     *  Expressão númerica
-     *
-     *  1º Sinais de associação
-     *
-     *  1º - () Parênteses;
-     *  2º - [] Colchetes;
-     *  3º - {} Chaves;
-     *
-     *  2º Operações
-     *
-     *  1º - Potência e/ou raiz;
-     *  2º - X e/ou / na ordem que aparece (da esquerda para direita)
-     *  3º - + e/ou - na ordem que aparece (da esquerda para direita)
-     *
-     * Exemplo
-     *
-     * 8 / 2 (2 + 2) = ?
-     * 8 / 2 * 4                    * Resolve primeiro o Sinail de associação de () Parênteses
-     * 4 * 4                        * Resolve operador de Divisão / pq aparece primeiro
-     * 16
-     *
-     * **/
-
 }
